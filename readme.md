@@ -1,6 +1,6 @@
 # Автотесты для мобильного приложения Wikipedia
 
-<img src="https://github.com/matuation/mobile_automation/blob/main/media/appium.png" width="250" height="350"/>
+<img src="https://github.com/matuation/mobile_automation/blob/main/media/wiki.png" width="250" height="550"/>
 
 Используемые технологии:
 
