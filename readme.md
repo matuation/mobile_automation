@@ -1,6 +1,7 @@
 # Автотесты для мобильного приложения Wikipedia
 
-<img src="https://github.com/matuation/silachclubLandingTest/blob/main/media/silachmainpage.png"/>
+<img src="https://github.com/matuation/mobile_automation/blob/main/media/wiki.png"/>
+
 Используемые технологии:
 
 - Java <img src="https://github.com/matuation/silachclubLandingTest/blob/main/media/java.png" width="50" height="50"/>
