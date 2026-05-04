@@ -1,4 +1,5 @@
 import com.codeborne.selenide.Configuration;
+import com.codeborne.selenide.Selenide;
 import com.codeborne.selenide.logevents.SelenideLogger;
 import config.MobileConfig;
 import drivers.MobileDriver;
@@ -14,6 +15,8 @@ import static com.codeborne.selenide.Selenide.open;
 
 public class TestBase {
 
+    private static final MobileConfig config = ConfigFactory.create(MobileConfig.class, System.getProperties());
+
     @BeforeAll
     static void beforeAll() {
         Configuration.browser = MobileDriver.class.getName();
@@ -28,8 +31,13 @@ public class TestBase {
 
     @AfterEach
     void addAttachments() {
-        Attach.screenshotAs("Last screenshot");
+        String sessionId = Selenide.sessionId().toString();
+        System.out.println(sessionId);
         Attach.pageSource();
         closeWebDriver();
+        if (config.isRemote()) {
+            Attach.addVideo(sessionId);
+        }
+
     }
 }

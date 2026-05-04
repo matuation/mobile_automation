@@ -61,7 +61,9 @@ public class MobileDriver implements WebDriverProvider {
                     .setPlatformName("Android")
                     .setPlatformVersion(config.platformVersion())
                     .setDeviceName(config.deviceName())
-                    .setApp(getAppPath());
+                    .setApp(getAppPath())
+                    .setAppPackage(config.appPackage())
+                    .setAppActivity(config.appActivity());
         }
 
         try {

@@ -57,6 +57,10 @@ tasks.withType(Test) {
     }
 }
 
+tasks.withType(JavaCompile) {
+    options.encoding = 'UTF-8'
+}
+
 tasks.withType(Test) {
     // Эта строка берет все переменные из терминала и передает их в Java-тесты
     systemProperties(System.getProperties())

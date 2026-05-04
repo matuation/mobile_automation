@@ -11,11 +11,11 @@ import org.aeonbits.owner.Config;
         String platformName();
 
         @Key("deviceName")
-        @DefaultValue("Pixel_4")
+        @DefaultValue("")
         String deviceName();
 
         @Key("platformVersion")
-        @DefaultValue("11.0")
+        @DefaultValue("")
         String platformVersion();
 
         @Key("appPath")
