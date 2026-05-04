@@ -1,4 +1,4 @@
-# Автотесты для [спортивного клуба "Силач"](https://silachclub.ru/)
+# Автотесты для мобильного приложения Wikipedia
 
 <img src="https://github.com/matuation/silachclubLandingTest/blob/main/media/silachmainpage.png"/>
 Используемые технологии:
