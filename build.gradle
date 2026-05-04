@@ -32,10 +32,11 @@ allure {
 }
 
 dependencies {
+    implementation(platform("org.seleniumhq.selenium:selenium-bom:4.20.0"))
     testImplementation(
             "com.codeborne:selenide:$selenideVersion",
             "io.qameta.allure:allure-selenide:$allureVersion",
-            "io.appium:java-client:8.3.0",
+            "io.appium:java-client:9.2.2",
             "commons-io:commons-io:2.11.0",
             "io.rest-assured:rest-assured:$restAssuredVersion",
             "org.junit.jupiter:junit-jupiter:$junitVersion",
@@ -54,4 +55,11 @@ tasks.withType(Test) {
             exceptionFormat "short"
         }
     }
+}
+
+tasks.withType(Test) {
+    // Эта строка берет все переменные из терминала и передает их в Java-тесты
+    systemProperties(System.getProperties())
+
+    useJUnitPlatform()
 }
