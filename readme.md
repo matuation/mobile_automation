@@ -60,7 +60,7 @@ https://github.com/user-attachments/assets/983d1ceb-0951-40e2-92d3-13390bbcb526
 
 ## Отчёт в [Allure Testops](https://allure.autotests.cloud/project/5193/test-cases/44226?treeId=0)
 
-Подбробнейший отчет в TMS Allure Testops с генерацией ручных тест-кейсов на основе кода
+Подробнейший отчет в TMS Allure Testops с генерацией ручных тест-кейсов на основе кода
 
 <img src="https://github.com/matuation/mobile_automation/blob/main/media/testops.png"/>
 
