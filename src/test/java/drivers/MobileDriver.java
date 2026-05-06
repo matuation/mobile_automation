@@ -1,5 +1,6 @@
 package drivers;
 
+import com.codeborne.selenide.Configuration;
 import com.codeborne.selenide.WebDriverProvider;
 import config.MobileConfig;
 import io.appium.java_client.android.AndroidDriver;
@@ -34,7 +35,7 @@ public class MobileDriver implements WebDriverProvider {
     @Override
     public WebDriver createDriver(@Nonnull Capabilities capabilities) {
         UiAutomator2Options options = new UiAutomator2Options();
-
+        Configuration.pageLoadTimeout = -1;
         if (config.isRemote()) {
 
             options.setPlatformName("Android");
