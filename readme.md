@@ -18,7 +18,7 @@
 
 ## Видео выполнения теста
 
-<video src="https://github.com/matuation/mobile_automation/blob/main/media/allurevideo.mp4" controls="controls" width="100%" height="auto"></video>
+https://github.com/matuation/mobile_automation/blob/main/media/allurevideo.mp4
 
 ---
 
@@ -26,7 +26,7 @@
 
 Удобная параметризированная сборка
 
-<img src="https://github.com/matuation/mobile_wiki_aos/blob/main/media/jenkins.png"/>
+<img src="https://github.com/matuation/mobile_automation/blob/main/media/jenkins.png"/>
 
 ---
 
