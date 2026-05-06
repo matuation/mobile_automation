@@ -18,7 +18,7 @@
 
 ## Видео выполнения теста
 
-Uploading allurevideo.mp4…
+https://github.com/user-attachments/assets/983d1ceb-0951-40e2-92d3-13390bbcb526
 
 ---
 
