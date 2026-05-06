@@ -24,9 +24,21 @@ BrowserStack <img src="https://github.com/matuation/mobile_automation/blob/main/
 - Android
   Studio <img src="https://github.com/matuation/mobile_automation/blob/main/media/androidstud.png" width="50" height="50"/>
 
+## Видео выполнения теста
+
+<video src="https://github.com/matuation/mobile_automation/blob/main/media/allurevideo.mp4" controls="controls" width="100%" height="auto"></video>
+
 ---
 
-## Отчёт в Allure
+## Джоба в [Jenkins](https://jenkins.autotests.cloud/view/java_students/job/mobile_wiki_aos/)
+
+Удобная параметризированная сборка
+
+<img src="https://github.com/matuation/mobile_wiki_aos/blob/main/media/jenkins.png"/>
+
+---
+
+## Отчёт в [Allure](https://jenkins.autotests.cloud/view/java_students/job/mobile_wiki_aos/8/allure/#suites/8f6d9e862796cbb6b1d33f0b65fba662/170e1213678e40b0/)
 
 Понятный визуализированный отчёт по результатам с вложениями
 
@@ -43,6 +55,22 @@ BrowserStack <img src="https://github.com/matuation/mobile_automation/blob/main/
 .\gradlew clean test -Denv=remote
 
 <img src="https://github.com/matuation/mobile_automation/blob/main/media/bspng.png"/>
+
+---
+
+## Отчёт в Telegram при помощи бота
+
+Уведомление в удобный мессенджер с метаданными
+
+<img src="https://github.com/matuation/mobile_automation/blob/main/media/telegram.png"/>
+
+---
+
+## Отчёт в [Allure Testops](https://allure.autotests.cloud/project/5193/test-cases/44226?treeId=0)
+
+Подбробнейший отчет в TMS Allure Testops с генерацией ручных тест-кейсов на основе кода
+
+<img src="https://github.com/matuation/mobile_automation/blob/main/media/testops.png"/>
 
 ---
 
