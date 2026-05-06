@@ -34,7 +34,7 @@ allure {
 dependencies {
     implementation(platform("org.seleniumhq.selenium:selenium-bom:4.20.0"))
     testImplementation(
-            "org.aspectj:$aspectjWeaverVersion",
+            "org.aspectjweaver:$aspectjWeaverVersion",
             "com.codeborne:selenide:$selenideVersion",
             "io.qameta.allure:allure-selenide:$allureVersion",
             "io.appium:java-client:9.2.2",
